@@ -1,0 +1,26 @@
+{
+  "name": "wemo",
+  "version": "1.0.0",
+  "description": "This script to ping a list of ip or website at a specified interval to determine if the connection is still up. When it's disconnected, it turns off the wemo switch, and turn it on in 30 seconds.",
+  "main": "index.js",
+  "dependencies": {
+    "ping": "^0.2.2",
+    "rxjs": "^5.5.11",
+    "wemo-client": "^0.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lancevo/wemo-auto-reset.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lancevo/wemo-auto-reset/issues"
+  },
+  "homepage": "https://github.com/lancevo/wemo-auto-reset#readme"
+}
